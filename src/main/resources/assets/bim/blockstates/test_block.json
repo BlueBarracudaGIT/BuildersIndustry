@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "bim:block/test_block"
+    }
+  }
+}

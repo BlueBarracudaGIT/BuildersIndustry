@@ -1,0 +1,95 @@
+{
+  "item.bim.test": "Test Item",
+
+  "item.bim.rock_chunk": "Rock Chunk",
+  "item.bim.iron_chunk": "Iron Chunk",
+  "item.bim.gold_chunk": "Gold Chunk",
+  "item.bim.copper_chunk": "Copper Chunk",
+  "item.bim.tin_chunk": "Tin Chunk",
+  "item.bim.netherium_chunk": "Netherium Chunk",
+
+  "item.bim.copper_ingot": "Copper Ingot",
+  "item.bim.copper_nugget": "Copper Nugget",
+  "item.bim.copper_dust": "Copper Dust",
+
+  "item.bim.tin_ingot": "Tin Ingot",
+  "item.bim.tin_nugget": "Tin Nugget",
+  "item.bim.tin_dust": "Tin Dust",
+
+  "item.bim.netherium_ingot": "Netherium Ingot",
+  "item.bim.netherium_nugget": "Netherium Nugget",
+
+  "item.bim.bronze_ingot": "Bronze Ingot",
+  "item.bim.bronze_nugget": "Bronze Nugget",
+
+  "item.bim.steel_ingot": "Steel Ingot",
+  "item.bim.steel_nugget": "Steel Nugget",
+
+  "item.bim.tin_iron": "Tin Iron",
+  "item.bim.tin_iron_nugget": "Steel Nugget",
+
+  "item.bim.ruby": "Ruby",
+  "item.bim.sapphire": "Sapphire",
+
+  "item.bim.ember": "Ember",
+
+  "item.bim.reinforced_brick": "Reinforced Brick",
+  "item.bim.blasted_brick": "Blasted Brick",
+
+  "item.bim.iron_strip": "Iron Strip",
+  "item.bim.gold_strip": "Gold Strip",
+  "item.bim.copper_strip": "Copper Strip",
+  "item.bim.tin_strip": "Tin Strip",
+  "item.bim.bronze_strip": "Bronze Strip",
+  "item.bim.steel_strip": "Steel Strip",
+  "item.bim.tin_iron_strip": "Tin Iron Strip",
+
+  "item.bim.iron_plate": "Iron Plate",
+  "item.bim.gold_plate": "Gold Plate",
+  "item.bim.copper_plate": "Copper Plate",
+  "item.bim.tin_plate": "Tin Plate",
+  "item.bim.bronze_plate": "Bronze Plate",
+  "item.bim.steel_plate": "Steel Plate",
+  "item.bim.tin_iron_plate": "Tin Iron Plate",
+
+  "item.bim.iron_rod": "Iron Rod",
+  "item.bim.gold_rod": "Gold Rod",
+  "item.bim.copper_rod": "Copper Rod",
+  "item.bim.tin_rod": "Tin Rod",
+  "item.bim.bronze_rod": "Bronze Rod",
+  "item.bim.steel_rod": "Steel Rod",
+  "item.bim.tin_iron_rod": "Tin Iron Rod",
+
+  "item.bim.iron_gear": "Iron Gear",
+  "item.bim.gold_gear": "Gold Gear",
+  "item.bim.copper_gear": "Copper Gear",
+  "item.bim.tin_gear": "Tin Gear",
+  "item.bim.bronze_gear": "Bronze Gear",
+  "item.bim.steel_gear": "Steel Gear",
+  "item.bim.tin_iron_gear": "Tin Iron Gear",
+
+  "item.bim.component": "Empty Component",
+  "item.bim.heater_component": "Heater Component",
+  "item.bim.cooler_component": "Cooler Component",
+  "item.bim.energy_component": "Energy Component",
+  "item.bim.inventory_component": "Inventory Component",
+
+  "item.bim.plastic_blend": "Plastic Blend",
+  "item.bim.plastic": "Plastic",
+
+  "item.bim.solder": "Solder",
+
+  "item.bim.circuit_board": "Circuit Board",
+  "item.bim.simple_circuit": "Simple Circuit",
+  "item.bim.basic_circuit": "Basic Circuit",
+  "item.bim.circuit": "Circuit",
+  "item.bim.advanced_circuit": "Advanced Circuit",
+  "item.bim.enhanced_circuit": "Enhanced Circuit",
+  "item.bim.ender_circuit": "Ender Circuit",
+
+  "item.bim.combustion_engine": "Combustion Engine",
+
+  "block.bim.test_block": "Test Block",
+
+  "itemGroup.bim": "Builders' Industry"
+}
