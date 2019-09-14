@@ -2,6 +2,7 @@ package com.builderboy.bim;
 
 import com.builderboy.bim.core.ModBlocks;
 import com.builderboy.bim.core.ModItems;
+import com.builderboy.bim.world.ModWorldFeatures;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
@@ -20,7 +21,10 @@ public class SideProxy {
         MinecraftForge.EVENT_BUS.addListener(SideProxy::serverStarting);
     }
 
-    private static void commonSetup(FMLCommonSetupEvent event) {}
+    private static void commonSetup(FMLCommonSetupEvent event) {
+        ModWorldFeatures.addFeatures();
+
+    }
 
     private static void serverStarting(FMLServerStartingEvent event) {}
 
