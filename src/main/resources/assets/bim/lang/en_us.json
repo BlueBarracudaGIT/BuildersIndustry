@@ -26,7 +26,7 @@
   "item.bim.steel_nugget": "Steel Nugget",
 
   "item.bim.tin_iron": "Tin Iron",
-  "item.bim.tin_iron_nugget": "Steel Nugget",
+  "item.bim.tin_iron_nugget": "Tin Iron Nugget",
 
   "item.bim.ruby": "Ruby",
   "item.bim.sapphire": "Sapphire",
@@ -88,6 +88,8 @@
   "item.bim.ender_circuit": "Ender Circuit",
 
   "item.bim.combustion_engine": "Combustion Engine",
+
+  "item.bim.hammer": "Hammer",
 
   "block.bim.test_block": "Test Block",
 

@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "bim:item/bronze_ingot",
+    "layer0": "bim:item/bronze_ingot"
   }
 }

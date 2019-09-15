@@ -18,7 +18,14 @@ public class ModBlocks {
 
     public static Block COPPER_ORE;
     public static Block TIN_ORE;
-    public static Block ALUMINIUM_ORE;
+    //public static Block ALUMINIUM_ORE;
+
+    public static Block COPPER_BLOCK;
+    public static Block TIN_BLOCK;
+    public static Block TIN_IRON_BLOCK;
+    public static Block STEEL_BLOCK;
+    public static Block BRONZE_BLOCK;
+    public static Block NETHERIUM_BLOCK;
 
     public static void registerAll(RegistryEvent.Register<Block> event) {
         if (!event.getName().equals(ForgeRegistries.BLOCKS.getRegistryName())) return;
@@ -27,7 +34,14 @@ public class ModBlocks {
 
         COPPER_ORE = register("copper_ore", new Block(Block.Properties.create(Material.ROCK).hardnessAndResistance(3.0f, 3.0f).harvestTool(ToolType.PICKAXE)));
         TIN_ORE = register("tin_ore", new Block(Block.Properties.create(Material.ROCK).hardnessAndResistance(3.0f, 3.0f).harvestTool(ToolType.PICKAXE)));
-        ALUMINIUM_ORE = register("aluminium_ore", new Block(Block.Properties.create(Material.ROCK).hardnessAndResistance(3.0f, 3.0f).harvestTool(ToolType.PICKAXE)));
+        //ALUMINIUM_ORE = register("aluminium_ore", new Block(Block.Properties.create(Material.ROCK).hardnessAndResistance(3.0f, 3.0f).harvestTool(ToolType.PICKAXE)));
+
+        COPPER_BLOCK = register("copper_block", new Block(Block.Properties.create(Material.IRON).hardnessAndResistance(3.0f, 3.0f).harvestTool(ToolType.PICKAXE)));
+        TIN_BLOCK = register("tin_block", new Block(Block.Properties.create(Material.IRON).hardnessAndResistance(3.0f, 3.0f).harvestTool(ToolType.PICKAXE)));
+        TIN_IRON_BLOCK = register("tin_iron_block", new Block(Block.Properties.create(Material.IRON).hardnessAndResistance(3.0f, 3.0f).harvestTool(ToolType.PICKAXE)));
+        STEEL_BLOCK = register("steel_block", new Block(Block.Properties.create(Material.IRON).hardnessAndResistance(3.0f, 3.0f).harvestTool(ToolType.PICKAXE)));
+        BRONZE_BLOCK = register("bronze_block", new Block(Block.Properties.create(Material.IRON).hardnessAndResistance(3.0f, 3.0f).harvestTool(ToolType.PICKAXE)));
+        NETHERIUM_BLOCK = register("netherium_block", new Block(Block.Properties.create(Material.IRON).hardnessAndResistance(3.0f, 3.0f).harvestTool(ToolType.PICKAXE)));
     }
 
     public static <B extends Block> B register(String name, B block) { return register(name, block, BuildersIndustry.BUILDERS_INDUSTRY); }

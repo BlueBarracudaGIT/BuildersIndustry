@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "bim:item/iron_plate",
+    "layer0": "bim:item/iron_plate"
   }
 }

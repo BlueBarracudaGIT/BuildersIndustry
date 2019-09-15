@@ -30,7 +30,7 @@ public class ModWorldFeatures {
 
                 addOre(biome, ModBlocks.COPPER_ORE.getDefaultState(), 12, 6, TARGET_OVERWORLD, RANGE_FULL);
                 addOre(biome, ModBlocks.TIN_ORE.getDefaultState(), 6, 4, TARGET_OVERWORLD, RANGE_FULL);
-                addOre(biome, ModBlocks.ALUMINIUM_ORE.getDefaultState(), 4, 6, TARGET_OVERWORLD, RANGE_FULL);
+                //addOre(biome, ModBlocks.ALUMINIUM_ORE.getDefaultState(), 4, 6, TARGET_OVERWORLD, RANGE_FULL);
 
             }
         });

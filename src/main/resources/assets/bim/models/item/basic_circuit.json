@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "bim:item/basic_circuit",
+    "layer0": "bim:item/basic_circuit"
   }
 }

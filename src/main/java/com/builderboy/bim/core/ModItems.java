@@ -105,6 +105,9 @@ public class ModItems {
 
     public static Item COMBUSTION_ENGINE;
 
+    //Tool
+    public static Item HAMMER;
+
     static final Map<String, BlockItem> BLOCKS_TO_REGISTER = new LinkedHashMap<>();
 
     public static void registerAll(RegistryEvent.Register<Item> event) {
@@ -201,6 +204,8 @@ public class ModItems {
         ENDER_CIRCUIT = register("ender_circuit", new CircuitItem());
 
         COMBUSTION_ENGINE = register("combustion_engine", new Item(new Item.Properties().group(BuildersIndustry.BUILDERS_INDUSTRY).maxStackSize(1)));
+
+        HAMMER = register("hammer", new Item(new Item.Properties().group(BuildersIndustry.BUILDERS_INDUSTRY).maxStackSize(1)));
     }
 
     public static <I extends Item> I register(String name, I item) {

@@ -39,9 +39,7 @@ public class SideProxy {
 
     public static class Server extends SideProxy {
 
-        Server() {
-            FMLJavaModLoadingContext.get().getModEventBus().addListener(Server::serverSetup);
-        }
+        Server() { FMLJavaModLoadingContext.get().getModEventBus().addListener(Server::serverSetup); }
 
         private static void serverSetup(FMLDedicatedServerSetupEvent event) {}
     }

@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": [
+    { "item": "minecraft:dark_oak_planks" }
+  ],
+  "result": "bim:ember",
+  "experience": 0.2,
+  "cookingtime": 200
+}

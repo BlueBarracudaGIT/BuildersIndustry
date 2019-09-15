@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "cbc",
+    "bBb",
+    "cbc"
+  ],
+  "key": {
+    "c": {
+      "item": "bim:rock_chunk"
+    },
+    "b": {
+      "item": "minecraft:brick"
+    },
+    "B": {
+      "item": "bim:blasted_brick"
+    }
+  },
+  "result": {
+    "item": "bim:reinforced_brick"
+  }
+}

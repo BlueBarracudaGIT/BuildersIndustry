@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": [
+    { "item": "bim:tin_chunk" }
+  ],
+  "result": "bim:tin_ingot",
+  "experience": 0.2,
+  "cookingtime": 200
+}

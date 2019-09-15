@@ -1,5 +1,6 @@
 package com.builderboy.bim;
 
+import com.builderboy.bim.core.ModItems;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.Items;
@@ -23,7 +24,7 @@ public class BuildersIndustry {
     public static final ItemGroup BUILDERS_INDUSTRY = new ItemGroup(MOD_ID) {
         @Override
         public ItemStack createIcon() {
-            return new ItemStack(Items.DIAMOND);
+            return new ItemStack(ModItems.EMBER);
         }
     };
 
