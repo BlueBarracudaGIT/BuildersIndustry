@@ -1,0 +1,62 @@
+{
+  "replace": false,
+  "values": [
+    "bim:iron_strip",
+    "bim:iron_plate",
+    "bim:iron_rod",
+    "bim:iron_gear",
+
+    "bim:gold_strip",
+    "bim:gold_plate",
+    "bim:gold_rod",
+    "bim:gold_gear",
+
+    "bim:copper_strip",
+    "bim:copper_plate",
+    "bim:copper_rod",
+    "bim:copper_gear",
+
+    "bim:tin_strip",
+    "bim:tin_plate",
+    "bim:tin_rod",
+    "bim:tin_gear",
+
+    "bim:bronze_strip",
+    "bim:bronze_plate",
+    "bim:bronze_rod",
+    "bim:bronze_gear",
+
+    "bim:steel_strip",
+    "bim:steel_plate",
+    "bim:steel_rod",
+    "bim:steel_gear",
+
+    "bim:tin_iron_strip",
+    "bim:tin_iron_plate",
+    "bim:tin_iron_rod",
+    "bim:tin_iron_gear",
+
+    "bim:component",
+    "bim:heater_component",
+    "bim:cooler_component",
+    "bim:energy_component",
+    "bim:inventory_component",
+
+    "bim:circuit_board",
+    "bim:simple_circuit",
+    "bim:basic_circuit",
+    "bim:circuit",
+    "bim:advanced_circuit",
+    "bim:enhanced_circuit",
+    "bim:ender_circuit",
+
+    "bim:combustion_engine",
+
+    "bim:simple_casing",
+    "bim:basic_casing",
+    "bim:casing",
+    "bim:advanced_casing",
+    "bim:enhanced_casing",
+    "bim:ender_casing"
+  ]
+}

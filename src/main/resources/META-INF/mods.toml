@@ -50,3 +50,10 @@ description='''
     versionRange="[1.14.4]"
     ordering="NONE"
     side="BOTH"
+
+[[dependencies.bim]]
+     modId="filters"
+     mandatory=false
+     versionRange="[1.1.0]"
+     ordering="BEFORE"
+     side="CLIENT"

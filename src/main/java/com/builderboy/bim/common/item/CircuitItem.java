@@ -2,12 +2,13 @@ package com.builderboy.bim.common.item;
 
 import com.builderboy.bim.api.InteractiveItem;
 import net.minecraft.entity.player.PlayerEntity;
-import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
 import net.minecraft.util.*;
 import net.minecraft.world.World;
 
 public class CircuitItem extends InteractiveItem {
+
+    public CircuitItem() { super(); }
 
     @Override
     public ActionResult<ItemStack> serverRightClick(World world, PlayerEntity player, ItemStack held, boolean isSneaking) {

@@ -14,7 +14,7 @@ public class ModItems {
 
     public static Item TEST;
 
-    //Resources
+    //Materials
     public static Item ROCK_CHUNK;
     public static Item IRON_CHUNK;
     public static Item GOLD_CHUNK;
@@ -45,10 +45,15 @@ public class ModItems {
 
     public static Item EMBER;
 
-    //Machine Parts
+    public static Item PLASTIC_BLEND;
+    public static Item PLASTIC;
+
+    public static Item SOLDER;
+
     public static Item REINFORCED_BRICK;
     public static Item BLASTED_BRICK;
 
+    //Machine Parts
     public static Item IRON_STRIP;
     public static Item IRON_PLATE;
     public static Item IRON_ROD;
@@ -90,11 +95,6 @@ public class ModItems {
     public static Item ENERGY_COMPONENT;
     public static Item INVENTORY_COMPONENT;
 
-    public static Item PLASTIC_BLEND;
-    public static Item PLASTIC;
-
-    public static Item SOLDER;
-
     public static Item CIRCUIT_BOARD;
     public static Item SIMPLE_CIRCUIT;
     public static Item BASIC_CIRCUIT;
@@ -105,7 +105,7 @@ public class ModItems {
 
     public static Item COMBUSTION_ENGINE;
 
-    //Tool
+    //Tools
     public static Item HAMMER;
 
     static final Map<String, BlockItem> BLOCKS_TO_REGISTER = new LinkedHashMap<>();
@@ -116,6 +116,7 @@ public class ModItems {
 
         TEST = register("test", new Item(new Item.Properties().group(BuildersIndustry.BUILDERS_INDUSTRY)));
 
+        //Materials
         ROCK_CHUNK = register("rock_chunk", new Item(new Item.Properties().group(BuildersIndustry.BUILDERS_INDUSTRY).maxStackSize(32)));
         IRON_CHUNK = register("iron_chunk", new Item(new Item.Properties().group(BuildersIndustry.BUILDERS_INDUSTRY).maxStackSize(32)));
         GOLD_CHUNK = register("gold_chunk", new Item(new Item.Properties().group(BuildersIndustry.BUILDERS_INDUSTRY).maxStackSize(32)));
@@ -146,9 +147,15 @@ public class ModItems {
 
         EMBER = register("ember", new Item(new Item.Properties().group(BuildersIndustry.BUILDERS_INDUSTRY).maxStackSize(16)));
 
+        PLASTIC_BLEND = register("plastic_blend", new Item(new Item.Properties().group(BuildersIndustry.BUILDERS_INDUSTRY)));
+        PLASTIC = register("plastic", new Item(new Item.Properties().group(BuildersIndustry.BUILDERS_INDUSTRY)));
+
+        SOLDER = register("solder", new Item(new Item.Properties().group(BuildersIndustry.BUILDERS_INDUSTRY)));
+
         REINFORCED_BRICK = register("reinforced_brick", new Item(new Item.Properties().group(BuildersIndustry.BUILDERS_INDUSTRY)));
         BLASTED_BRICK = register("blasted_brick", new Item(new Item.Properties().group(BuildersIndustry.BUILDERS_INDUSTRY)));
 
+        //Machine Parts
         IRON_STRIP = register("iron_strip", new Item(new Item.Properties().group(BuildersIndustry.BUILDERS_INDUSTRY).maxStackSize(16)));
         IRON_PLATE = register("iron_plate", new Item(new Item.Properties().group(BuildersIndustry.BUILDERS_INDUSTRY).maxStackSize(16)));
         IRON_ROD = register("iron_rod", new Item(new Item.Properties().group(BuildersIndustry.BUILDERS_INDUSTRY).maxStackSize(16)));
@@ -190,11 +197,6 @@ public class ModItems {
         ENERGY_COMPONENT = register("energy_component", new Item(new Item.Properties().group(BuildersIndustry.BUILDERS_INDUSTRY).maxStackSize(4)));
         INVENTORY_COMPONENT = register("inventory_component", new Item(new Item.Properties().group(BuildersIndustry.BUILDERS_INDUSTRY).maxStackSize(4)));
 
-        PLASTIC_BLEND = register("plastic_blend", new Item(new Item.Properties().group(BuildersIndustry.BUILDERS_INDUSTRY)));
-        PLASTIC = register("plastic", new Item(new Item.Properties().group(BuildersIndustry.BUILDERS_INDUSTRY)));
-
-        SOLDER = register("solder", new Item(new Item.Properties().group(BuildersIndustry.BUILDERS_INDUSTRY)));
-
         CIRCUIT_BOARD = register("circuit_board", new CircuitItem());
         SIMPLE_CIRCUIT = register("simple_circuit", new CircuitItem());
         BASIC_CIRCUIT = register("basic_circuit", new CircuitItem());
@@ -205,6 +207,7 @@ public class ModItems {
 
         COMBUSTION_ENGINE = register("combustion_engine", new Item(new Item.Properties().group(BuildersIndustry.BUILDERS_INDUSTRY).maxStackSize(1)));
 
+        //Tools
         HAMMER = register("hammer", new Item(new Item.Properties().group(BuildersIndustry.BUILDERS_INDUSTRY).maxStackSize(1)));
     }
 

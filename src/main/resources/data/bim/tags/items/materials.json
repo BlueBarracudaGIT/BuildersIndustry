@@ -1,0 +1,48 @@
+{
+  "replace": false,
+  "values": [
+    "bim:rock_chunk",
+    "bim:iron_chunk",
+    "bim:gold_chunk",
+    "bim:copper_chunk",
+    "bim:tin_chunk",
+    "bim:netherium_chunk",
+
+    "bim:copper_ingot",
+    "bim:tin_ingot",
+    "bim:netherium_ingot",
+    "bim:bronze_ingot",
+    "bim:steel_ingot",
+    "bim:tin_iron",
+
+    "bim:copper_nugget",
+    "bim:tin_nugget",
+    "bim:netherium_nugget",
+    "bim:bronze_nugget",
+    "bim:steel_nugget",
+    "bim:tin_iron_nugget",
+
+    "bim:ruby",
+    "bim:sapphire",
+
+    "bim:ember",
+
+    "bim:plastic_blend",
+    "bim:plastic",
+
+    "bim:solder",
+
+    "bim:reinforced_brick",
+    "bim:blasted_brick",
+
+    "bim:copper_ore",
+    "bim:tin_ore",
+
+    "bim:copper_block",
+    "bim:tin_block",
+    "bim:tin_iron_block",
+    "bim:steel_block",
+    "bim:bronze_block",
+    "bim:netherium_block"
+  ]
+}

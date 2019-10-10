@@ -14,6 +14,8 @@ import net.minecraft.world.World;
 public class InteractiveItem extends Item implements IInteractibleItem {
     public InteractiveItem() { super(new Properties().group(BuildersIndustry.BUILDERS_INDUSTRY).maxStackSize(1)); }
 
+    public InteractiveItem(Item.Properties properties) { super(properties); }
+
     @Override
     public ActionResult<ItemStack> onItemRightClick(World world, PlayerEntity player, Hand hand) {
         ItemStack held = player.getHeldItem(hand);
