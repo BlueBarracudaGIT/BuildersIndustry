@@ -1,15 +1,12 @@
 package com.builderboy.bim;
 
-import com.builderboy.bim.common.item.CircuitItem;
 import com.builderboy.bim.core.ModBlocks;
 import com.builderboy.bim.core.ModItems;
+import com.builderboy.bim.core.ModTileEntities;
 import com.builderboy.bim.world.ModWorldFeatures;
 import com.mrcrayfish.filters.Filters;
-import net.minecraft.item.BlockItem;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemStack;
-import net.minecraft.item.Items;
-import net.minecraft.util.ResourceLocation;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.fml.ModList;
 import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
@@ -25,6 +22,8 @@ public class SideProxy {
 
         FMLJavaModLoadingContext.get().getModEventBus().addListener(ModBlocks::registerAll);
         FMLJavaModLoadingContext.get().getModEventBus().addListener(ModItems::registerAll);
+
+        FMLJavaModLoadingContext.get().getModEventBus().addListener(ModTileEntities::registerAll);
 
         MinecraftForge.EVENT_BUS.addListener(SideProxy::serverStarting);
     }

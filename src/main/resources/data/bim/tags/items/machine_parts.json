@@ -50,13 +50,6 @@
     "bim:enhanced_circuit",
     "bim:ender_circuit",
 
-    "bim:combustion_engine",
-
-    "bim:simple_casing",
-    "bim:basic_casing",
-    "bim:casing",
-    "bim:advanced_casing",
-    "bim:enhanced_casing",
-    "bim:ender_casing"
+    "bim:combustion_engine"
   ]
 }

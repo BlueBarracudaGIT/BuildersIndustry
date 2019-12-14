@@ -22,6 +22,9 @@ public class ModItems {
     public static Item TIN_CHUNK;
     public static Item NETHERIUM_CHUNK;
 
+    public static Item PYROMITE_SHARD;
+    public static Item CRYOTITE_SHARD;
+
     public static Item COPPER_INGOT;
     public static Item COPPER_NUGGET;
 
@@ -42,6 +45,9 @@ public class ModItems {
 
     public static Item RUBY;
     public static Item SAPPHIRE;
+
+    public static Item PYROMITE_CRYSTAL;
+    public static Item CRYOTITE_CRYSTAL;
 
     public static Item EMBER;
 
@@ -124,6 +130,9 @@ public class ModItems {
         TIN_CHUNK = register("tin_chunk", new Item(new Item.Properties().group(BuildersIndustry.BUILDERS_INDUSTRY).maxStackSize(32)));
         NETHERIUM_CHUNK = register("netherium_chunk", new Item(new Item.Properties().group(BuildersIndustry.BUILDERS_INDUSTRY).maxStackSize(32)));
 
+        PYROMITE_SHARD = register("pyromite_shard", new Item(new Item.Properties().group(BuildersIndustry.BUILDERS_INDUSTRY).maxStackSize(16)));
+        CRYOTITE_SHARD = register("cryotite_shard", new Item(new Item.Properties().group(BuildersIndustry.BUILDERS_INDUSTRY).maxStackSize(16)));
+
         COPPER_INGOT = register("copper_ingot", new Item(new Item.Properties().group(BuildersIndustry.BUILDERS_INDUSTRY)));
         COPPER_NUGGET = register("copper_nugget", new Item(new Item.Properties().group(BuildersIndustry.BUILDERS_INDUSTRY)));
 
@@ -144,6 +153,9 @@ public class ModItems {
 
         RUBY = register("ruby", new Item(new Item.Properties().group(BuildersIndustry.BUILDERS_INDUSTRY)));
         SAPPHIRE = register("sapphire", new Item(new Item.Properties().group(BuildersIndustry.BUILDERS_INDUSTRY)));
+
+        PYROMITE_CRYSTAL = register("pyromite_crystal", new Item(new Item.Properties().group(BuildersIndustry.BUILDERS_INDUSTRY).maxStackSize(16)));
+        CRYOTITE_CRYSTAL = register("cryotite_crystal", new Item(new Item.Properties().group(BuildersIndustry.BUILDERS_INDUSTRY).maxStackSize(16)));
 
         EMBER = register("ember", new Item(new Item.Properties().group(BuildersIndustry.BUILDERS_INDUSTRY).maxStackSize(16)));
 

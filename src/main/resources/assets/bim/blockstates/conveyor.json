@@ -1,0 +1,18 @@
+{
+  "variants": {
+    "facing=north,shape=straight": { "model": "bim:block/conveyor" },
+    "facing=south,shape=straight": { "model": "bim:block/conveyor",  "y":  180 },
+    "facing=west,shape=straight": { "model": "bim:block/conveyor",  "y":  270 },
+    "facing=east,shape=straight": { "model": "bim:block/conveyor",  "y":  90 },
+
+    "facing=north,shape=turn_left": { "model": "bim:block/conveyor_left" },
+    "facing=south,shape=turn_left": { "model": "bim:block/conveyor_left",  "y":  180 },
+    "facing=west,shape=turn_left": { "model": "bim:block/conveyor_left",  "y":  270 },
+    "facing=east,shape=turn_left": { "model": "bim:block/conveyor_left",  "y":  90 },
+
+    "facing=north,shape=turn_right": { "model": "bim:block/conveyor_right" },
+    "facing=south,shape=turn_right": { "model": "bim:block/conveyor_right",  "y":  180 },
+    "facing=west,shape=turn_right": { "model": "bim:block/conveyor_right",  "y":  270 },
+    "facing=east,shape=turn_right": { "model": "bim:block/conveyor_right",  "y":  90 }
+  }
+}

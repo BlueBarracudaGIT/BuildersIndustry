@@ -22,6 +22,12 @@
     "bim:steel_nugget",
     "bim:tin_iron_nugget",
 
+    "pyromite_shard",
+    "cryotite_shard",
+
+    "pyromite_crystal",
+    "cryotite_crystal",
+
     "bim:ruby",
     "bim:sapphire",
 

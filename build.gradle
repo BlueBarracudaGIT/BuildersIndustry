@@ -107,12 +107,12 @@ repositories {
 }
 
 dependencies {
-    minecraft 'net.minecraftforge:forge:1.14.4-28.1.40'
+    minecraft 'net.minecraftforge:forge:1.14.4-28.1.87'
 
     //compileOnly fg.deobf("mezz.jei:jei-${project.mcVersion}:${project.jeiVersion}:api")
     //runtimeOnly fg.deobf("mezz.jei:jei-${project.mcVersion}:${project.jeiVersion}")
 
-    compile 'filters:Filters:1.1.0:1.14.4'
+    compileOnly 'filters:Filters:1.1.0:1.14.4'
 }
 
 // Example for how to get properties into the manifest for reading by the runtime..

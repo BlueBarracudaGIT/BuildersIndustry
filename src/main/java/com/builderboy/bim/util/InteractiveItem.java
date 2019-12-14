@@ -1,7 +1,6 @@
-package com.builderboy.bim.api;
+package com.builderboy.bim.util;
 
 import com.builderboy.bim.BuildersIndustry;
-import com.builderboy.bim.util.IInteractibleItem;
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
