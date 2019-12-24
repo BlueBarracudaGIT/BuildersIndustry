@@ -1,7 +1,7 @@
 package com.builderboy.bim.core;
 
 import com.builderboy.bim.BuildersIndustry;
-import com.builderboy.bim.common.block.machine.ConveyorBlock;
+import com.builderboy.bim.common.block.machine.transport.ConveyorBlock;
 import net.minecraft.block.Block;
 import net.minecraft.block.material.Material;
 import net.minecraft.item.BlockItem;

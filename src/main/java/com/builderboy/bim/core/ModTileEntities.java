@@ -1,6 +1,7 @@
 package com.builderboy.bim.core;
 
 import com.builderboy.bim.BuildersIndustry;
+import com.builderboy.bim.common.block.tileentity.transport.ConveyorTileEntity;
 import com.mojang.datafixers.DataFixUtils;
 import com.mojang.datafixers.types.Type;
 import net.minecraft.tileentity.TileEntity;
@@ -13,7 +14,7 @@ import net.minecraftforge.registries.ForgeRegistries;
 
 public class ModTileEntities {
 
-    //public static TileEntityType<GearboxTileEntity> GEARBOX;
+    public static TileEntityType<ConveyorTileEntity> CONVEYOR;
 
     private static <T extends TileEntity> TileEntityType<T> register(String name, TileEntityType.Builder<T> builder) {
         Type<?> type = null;
@@ -35,6 +36,6 @@ public class ModTileEntities {
     public static void registerAll(RegistryEvent.Register<TileEntityType<?>> event) {
         if (!event.getName().equals(ForgeRegistries.TILE_ENTITIES.getRegistryName())) return;
 
-        //GEARBOX = register("gearbox", TileEntityType.Builder.create(GearboxTileEntity::new, ModBlocks.GEARBOX));
+        CONVEYOR = register("conveyor", TileEntityType.Builder.create(ConveyorTileEntity::new, ModBlocks.CONVEYOR));
     }
 }
